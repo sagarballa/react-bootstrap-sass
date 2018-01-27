@@ -4,6 +4,8 @@ import Container from './container';
 
 import {classify} from './utils';
 
+import './jumbotron.scss';
+
 export default class Jumbotron extends React.Component {
     render(){
         const className = classify('jumbotron', this.props.className);
